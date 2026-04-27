@@ -2,6 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import bingo from "../../Assets/Projects/bingo.png";
+import chatify from "../../Assets/Projects/chatify.png";
+import codeEditor from "../../Assets/Projects/codeEditor.png";
+import emotion from "../../Assets/Projects/emotion.png";
+import ethSendAndSwap from "../../Assets/Projects/eth-send-and-swap.png";
+import leaf from "../../Assets/Projects/leaf.png";
 
 function Projects() {
   return (
@@ -17,7 +23,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={null}
+              imgPath={ethSendAndSwap}
               isBlog={false}
               title="Frontend Architecture for Web3 Products"
               description="Built scalable frontend architecture for decentralized applications using React, TypeScript, and modular component patterns to support complex product flows."
@@ -26,7 +32,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={null}
+              imgPath={chatify}
               isBlog={false}
               title="Wallet-Integrated User Experiences"
               description="Implemented secure wallet connection and transaction-signing flows with clear state handling, improving user trust and reducing interaction friction across DApp interfaces."
@@ -35,7 +41,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={null}
+              imgPath={codeEditor}
               isBlog={false}
               title="Real-Time Trading and Dashboard UI"
               description="Developed responsive dashboards and trading interfaces that visualize protocol data in real time and keep performance consistent under high-frequency updates."
@@ -44,7 +50,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={null}
+              imgPath={emotion}
               isBlog={false}
               title="DeFi UX Simplification"
               description="Translated advanced DeFi concepts such as AMMs, bridges, vesting, and perpetual workflows into intuitive UI patterns for broader user adoption."
@@ -53,7 +59,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={null}
+              imgPath={leaf}
               isBlog={false}
               title="Performance and Accessibility Optimization"
               description="Improved frontend load performance, component rendering efficiency, and accessibility standards to deliver faster and more inclusive product experiences."
@@ -62,7 +68,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={null}
+              imgPath={bingo}
               isBlog={false}
               title="Cross-Functional Product Delivery"
               description="Collaborated closely with design and backend teams to deliver production-ready features end-to-end, accelerating release cycles and improving UI quality consistency."
