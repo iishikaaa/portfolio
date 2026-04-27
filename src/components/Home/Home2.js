@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/home-girl-bottom.png";
 import Tilt from "react-parallax-tilt";
-import { AiFillPhone } from "react-icons/ai";
+import { AiFillPhone, AiOutlineMail } from "react-icons/ai";
 
 function Home2() {
   return (
@@ -58,8 +58,18 @@ function Home2() {
                 <a
                   href="tel:+918770118463"
                   className="icon-colour home-social-icons"
+                  aria-label="Call Ishika Maheshwari"
                 >
-                  <AiFillPhone />
+                  <AiFillPhone style={{ transform: "scaleX(-1)" }} />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:ishikamaheshwari8989@gmail.com"
+                  className="icon-colour home-social-icons"
+                  aria-label="Email Ishika Maheshwari"
+                >
+                  <AiOutlineMail />
                 </a>
               </li>
             </ul>

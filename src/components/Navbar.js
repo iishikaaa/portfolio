@@ -92,7 +92,7 @@ function NavBar() {
                 href="tel:+918770118463"
                 onClick={() => updateExpanded(false)}
               >
-                <AiFillPhone style={{ marginBottom: "2px" }} /> Contact
+                <AiFillPhone style={{ marginBottom: "2px", transform: "scaleX(-1)" }} /> Contact
               </Nav.Link>
             </Nav.Item>
           </Nav>
