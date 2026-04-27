@@ -3,11 +3,14 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import bingo from "../../Assets/Projects/bingo.png";
+import blog from "../../Assets/Projects/blog.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import codeEditor from "../../Assets/Projects/codeEditor.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import ethSendAndSwap from "../../Assets/Projects/eth-send-and-swap.png";
 import leaf from "../../Assets/Projects/leaf.png";
+import qodehr from "../../Assets/Projects/qodehr.png";
+import suicide from "../../Assets/Projects/suicide.png";
 
 function Projects() {
   return (
@@ -72,6 +75,33 @@ function Projects() {
               isBlog={false}
               title="Cross-Functional Product Delivery"
               description="Collaborated closely with design and backend teams to deliver production-ready features end-to-end, accelerating release cycles and improving UI quality consistency."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={qodehr}
+              isBlog={false}
+              title="HR and Team Workflow Interfaces"
+              description="Created structured workflow screens for hiring and team operations with clear forms, status views, and responsive layouts to support day-to-day productivity."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="Awareness and Impact-Focused Web UI"
+              description="Designed emotionally aware, content-first interfaces that balance readability and visual storytelling for educational and community-focused product experiences."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="Content and Blog Platform UI"
+              description="Implemented article and blog presentation components with reusable layouts, better content hierarchy, and responsive behavior across devices."
             />
           </Col>
         </Row>
